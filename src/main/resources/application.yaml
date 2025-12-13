@@ -9,8 +9,8 @@ spring:
       server:
         git:
           uri: https://github.com/ushanna1990/spring-resource-dev.git
-          searchPaths: config/dev/resources   # Specify the path within the repo
-          clone-on-start: true                # Clone the repo on startup
+          search-paths: config/dev/resources   # Specify the path within the repo
+          clone-on-start: true                 # Clone the repo on startup
 
 #Eureka Client Configuration
 eureka:
